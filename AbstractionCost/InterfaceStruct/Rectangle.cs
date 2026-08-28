@@ -1,0 +1,19 @@
+﻿namespace AbstractionCost.InterfaceStruct
+{
+    internal readonly struct Rectangle : IShape
+    {
+        private readonly double _width;
+        private readonly double _height;
+        double IShape.Width => _width;
+        double IShape.Height => _height;
+
+        internal Rectangle(double width, double height)
+        {
+            _width = width;
+            _height = height;
+        }
+
+        double IShape.Area() => _width * _height;
+
+    }
+}

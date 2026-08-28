@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AbstractionCost/AbstractionCost.csproj" />
+  <Project Path="DotNetPerf/DotNetPref.csproj" />
+</Solution>
